@@ -25,14 +25,22 @@ img{
   background-color: #1f2937;
   font-size: 24px;
   color: #F9FAF8;
-  padding: 10px 180px;
+  padding-left: 350px;
+  padding-right: 350px;
+  padding-bottom: 75px;
   margin: 0;
+  gap: 80px;
 }
 
 .awesome{
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  width: 650px;
+  font-size: 48px;
+  font-weight: bold;
+  color: #f9faf8;
+  flex-shrink: 0;
 }
 
 .imgtextheader{
@@ -57,11 +65,18 @@ img{
   padding: 32px;
 }
 
+.secondary{
+  font-size: 18px;
+  font-weight: normal;
+  color: #e5e7eb;
+}
+
 ul{
   display: flex;
   flex-direction: row;
   list-style-type: none;
   font-size: 18px;
+  color: #e5e7eb;
   gap: 32px;
 }
 
