@@ -30,6 +30,7 @@ img{
   padding-bottom: 75px;
   margin: 0;
   gap: 80px;
+  justify-content: space-between;
 }
 
 .awesome{
@@ -40,7 +41,6 @@ img{
   font-size: 48px;
   font-weight: bold;
   color: #f9faf8;
-  flex-shrink: 0;
 }
 
 .imgtextheader{
