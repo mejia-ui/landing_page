@@ -14,6 +14,13 @@ button{
   border-style: none;
 }
 
+.headpic{
+  font-size: small;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
 .scenary{
   width: 564px;
   height: auto;
@@ -63,6 +70,10 @@ button{
   background-color: #1f2937;
   color: #F9FAF8;
   padding: 32px;
+}
+
+h1{
+  margin: 0;
 }
 
 .box2{
@@ -156,6 +167,10 @@ ul{
   font-size: 18px;
   color: #e5e7eb;
   gap: 32px;
+}
+
+.source{
+  color: #68bb59;
 }
 
 a{
