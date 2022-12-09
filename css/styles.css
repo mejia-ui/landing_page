@@ -73,14 +73,29 @@ button{
 }
 
 .box3{
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background-color: #e5e7eb;
   color: #1f2937;
-  font-size: 36px;
-  font-weight: bold;
+  padding: 150px;
+  display: flex;
+  justify-content: center;
 }
+.quote-container{
+  width: 700px;
+}
+.quote{
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+  display: flex;
+  align-items: flex-end;
+}
+
+.quotename{
+  font-weight: bold;
+  display: flex;
+  justify-content: flex-end;
+}
+
 
 .secondary{
   font-size: 18px;
